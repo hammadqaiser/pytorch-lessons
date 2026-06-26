@@ -1,1 +1,5 @@
-# pytorch
+# PyTorch
+## What is PyTorch
+PyTorch, an open source deep learning framework used to build some of the world's famous artificial intelligence products. It was created at Meta AI Research lab in 2016 but is actually derived from the Lua based torch lirary that dates back to 2002. Fundamentally, it is a library for programming with tensors which are basically just multi-dimensional arrays that represent data and parameters in deep neural networks. Sounds complicated but its focused on usability will have you training machine learning models with just a few lines of python. In addition, it facilitates high performance parallel computing on a GPU thanks to nvidia's cuda platform.
+1. Developers love prototyping with it because it supports a dynamic computation graph allowing models to be optimized at a runtime. It does this by constructing a directed acyclic graph (DAG) consisting of functions that keeps track of all the executed operations on the tensors allowing you to change shape, size and operations after every iteration if needed.
+2. Pytorch has been used to train models for computer vision AI like Tesla Autopilot, image generators like Stable Diffusion and speech recognition models like OpenAI Whisper just to name a few.
